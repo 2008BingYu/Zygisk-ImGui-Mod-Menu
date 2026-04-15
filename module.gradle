@@ -1,8 +1,8 @@
 ext {
-    moduleLibraryName = "zygisk-il2cpp-modmenu"
-    magiskModuleId = "zygisk-il2cpp-modmenu"
+    moduleLibraryName = "zygisk-il2cpp-mod-menu"
+    magiskModuleId = "zygisk-il2cpp-mod-menu"
     moduleName = "Il2Cpp Mod Menu"
-    moduleAuthor = "Kinocrp"
+    moduleAuthor = "IceDomain"
     moduleDescription = "Il2Cpp Mod Menu With Zygisk."
     moduleVersion = "v1.0.0"
     moduleVersionCode = 1
