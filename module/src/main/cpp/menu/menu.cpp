@@ -148,7 +148,7 @@ void DrawGUI(ImGuiIO &io, ImGuiStyle &style, std::string appName) {
         ImGui::SetNextWindowPos(initPos, ImGuiCond_Always);
         ImGui::SetNextWindowSize(menuSize, ImGuiCond_Always);
 
-        if (ImGui::Begin(appName.c_str(), nullptr, ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoMove)) {
+        if (ImGui::Begin("IceDomainGui: " + appName.c_str(), nullptr, ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoMove)) {
             if (ImGui::IsMouseDown(0)) {
                 if (count < 2) {
                     if (ImGui::IsAnyItemHovered()) {
